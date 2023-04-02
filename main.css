@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    color: white;
+}
+
+
+legend{
+    border:  1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    color: blue;
+  
+}
+ 
+    .inputbox{
+        margin-bottom: 16px;
+        width: 94%
+    }
+    .inputbox label{
+        font-weight: bold;
+        display: block;
+
+    
+    }
+    .inputbox input{
+        width: 100%;
+        display: block;
+        padding: 8px;
+    }
+ 
+  form button{
+    max-width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;
+    
+
+  }
